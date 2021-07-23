@@ -39,7 +39,6 @@ const scraperObject = {
             await page.close();
         }
         await scrapeCurrentPage();
-        return bookName;
     }
 }
 
